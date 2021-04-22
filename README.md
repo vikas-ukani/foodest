@@ -1,6 +1,5 @@
 A Food Ordering website developed in NextJS with ReactJs. 
 
-
 ### Clone the repo
 
 ```
