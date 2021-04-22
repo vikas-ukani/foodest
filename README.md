@@ -1,14 +1,12 @@
 A Food Ordering website developed in NextJS with ReactJs. 
 
-## Getting Started
-
-#### Clone the repo
+### Clone the repo
 
 ```
 git clone https://github.com/vikas-ukani/foodest.git
 ```
 
-#### Install the node packages:
+### Install the node packages:
 
 
 ```
@@ -16,7 +14,7 @@ npm install
 ```
 
 
-#### To run the site in development mode:
+### To run the site in development mode:
 
 ```
 npm run dev
