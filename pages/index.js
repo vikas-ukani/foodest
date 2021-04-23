@@ -93,7 +93,7 @@ export default function Home() {
 
 
 
-      <section id="beer" className="description_content">
+      <section className="description_content">
         <div className="beer background_content">
           <h1>Great <span>Place</span> to enjoy</h1>
         </div>
