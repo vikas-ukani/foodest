@@ -15,9 +15,14 @@ a {
   box-sizing: border-box;
 }
 
-.font-white{
-  color: white;
+.font-white {
+  color: white !important;
 }
+
+.font-blank-all * {
+  color: black !important;
+}
+
 .bg-red {
   background-color: #d30f22;
 }
