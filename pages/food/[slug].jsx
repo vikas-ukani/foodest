@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button, Card, CardBody, Col, Row } from "reactstrap";
 import { getFoodBySlug, getFoodSlugs } from "../../apollo/foods";
-import RestaurantLists from "../../componenets/RestaurantList";
+import RestaurantLists from "../../Components/RestaurantList";
 
 function Food({ food, content }) {
     const API_URL = process.env.NEXT_PUBLIC_API_URL
