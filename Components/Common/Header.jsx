@@ -27,22 +27,45 @@ const Header = () => {
 
                     <div className="collapse navbar-collapse  " id="bs-example-navbar-collapse-1">
                         <ul className="nav navbar-nav main-nav  clear navbar-right ">
-
                             <li>
                                 <Link href="home">
                                     <a href="#top" className="color_animation navactive font-white text-uppercase"><b>restorents</b></a>
                                 </Link>
                             </li>
-                            <li><a className="color_animation text-uppercase" href="#story">ABOUT</a></li>
-                            <li><a className="color_animation text-uppercase" href="#pricing">PRICING</a></li>
-                            <li><a className="color_animation text-uppercase" href="#beer">BEER</a></li>
-                            <li><a className="color_animation text-uppercase" href="#bread">BREAD</a></li>
-                            <li><a className="color_animation text-uppercase" href="#featured">FEATURED</a></li>
-                            <li><a className="color_animation text-uppercase" href="#reservation">RESERVATION</a></li>
+                            <li>
+                                <Link href='/'>
+                                    <a className="color_animation text-uppercase" href="#story">ABOUT</a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href='/'>
+                                    <a className="color_animation text-uppercase" href="#pricing">PRICING</a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href='/food'>
+                                    <a className="color_animation text-uppercase"  >Foods</a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href='/'>
+                                    <a className="color_animation text-uppercase" href="#bread">BREAD</a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href='/'>
+                                    <a className="color_animation text-uppercase" href="#featured">FEATURED</a>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href='/'>
+                                    <a className="color_animation text-uppercase" href="#reservation">RESERVATION</a>
+                                </Link>
+                            </li>
                             <li className="">
                                 <a className="color_animation pull-right" style={{ padding: '0px ' }} >
                                     <i className="fa-3x fa fa-shopping-cart"></i>
-                                    <span className="badge badge-info ">
+                                    <span className="badge badge-success ">
                                         {cartItems.length}
                                     </span>
                                 </a>
