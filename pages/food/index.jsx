@@ -56,8 +56,8 @@ const Foods = ({ foods }) => {
 export const getStaticProps = async (ctx) => {
 
 
-    const foodfood = await getFoods()
-    const foods = foodfood.data
+    const foodRes = await getFoods()
+    const foods = foodRes.data
 
     console.log('foods', foods);
     return {
